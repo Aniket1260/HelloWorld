@@ -22,8 +22,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         chmod 777 requirements.txt
+        chmod 777 HelloWorld.py
         pip install -r requirements.txt
 
     - name: Deploy app
       run: |
-        python ../HelloWorld.py
+        python HelloWorld.py
