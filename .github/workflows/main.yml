@@ -26,6 +26,6 @@ jobs:
       - name: Deploy app
         run: |
           export FLASK_APP=HelloWorld.py
-          flask run --host=0.0.0.0 --port=$PORT
+          flask run --host=3.86.189.195 --port=$PORT
         env:
           PORT: 5000
