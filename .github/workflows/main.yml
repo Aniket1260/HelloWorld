@@ -26,4 +26,4 @@ jobs:
 
     - name: Deploy app
       run: |
-        python HelloWorld.py
+        python ../HelloWorld.py
